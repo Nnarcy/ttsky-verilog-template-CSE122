@@ -32,7 +32,7 @@ module tb ();
 `endif
 
   // Replace tt_um_example with your module name:
-  AddSubMultXOR user_project (
+  tt_um_nnarcy_addsubmultxor user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
