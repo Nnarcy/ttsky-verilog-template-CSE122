@@ -9,7 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a simple ALU device that has Addition, Subtraction, Multiplication and XOR comparison capability. Using the dedicated main inputs, the user can input two separate numbers that can be affected by the operation input. The dedicated input: ui_in, has 8 bits, with the first input, A using bits [0-2], B using bits [3-5], and op using bits [6-7]. A and B can be any number that is able to be represented within 3 bits, or digits 0-7, and op can be a combination of three patterns:
+    - 00 activates ADDITION functionality
+    - 01 activates SUBTRACTION functionality
+    - 10 activates MULTIPLICATION functionality
+    - 11 activates XOR functionality
+
 
 ## How to test
 
