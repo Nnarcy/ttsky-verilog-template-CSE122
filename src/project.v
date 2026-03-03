@@ -23,7 +23,6 @@ module tt_um_nnarcy_addsubmultxor (
 
   // List all unused inputs to prevent warnings
   // wire _unused = &{ena, clk, rst_n, 1'b0};
-  //
 
   wire [2:0] a  = ui_in[2:0];
   wire [2:0] b  = ui_in[5:3];
