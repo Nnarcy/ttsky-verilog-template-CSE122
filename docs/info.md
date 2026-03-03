@@ -18,8 +18,17 @@ This is a simple ALU device that has Addition, Subtraction, Multiplication and X
 
 ## How to test
 
-Filler
+The testbench created for this file consists of a verilog file which iterates through every possible input to the device and compares it with a model output to verify its behavior is correct. It achieves this by using nested for loops that go through all the inputs and check matches to verify the output. The possible inputs are i * j inputs with:
+* i being possible inputs for A
+* j being possible inputs for B
+
+Because A and B are both 3 bits wide each:
+
+* A possible numbers = 8
+* B possible numbers = 8
+
+Therefore i * j = 64. Nested loops do 64 iterations for each op input as a result. Because there are 4 possible op inputs there are 64 * 4 = 256 amount of tests run. This allows for a exhaustive and complete test of all possible desired outcomes, allowing for a confident, correct test. 
 
 ## Generative AI Use
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Generative AI was used in this project to mainly ask if ideas were viable for the Tiny Tapeout as well as for basic syntax updates and keeping ideas clear. It additionally was used for providing guidance with unclear errors and cleaning up code to be sure that the design was comphrehensive. 
