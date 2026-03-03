@@ -32,3 +32,5 @@ Therefore i * j = 64. Nested loops do 64 iterations for each op input as a resul
 ## Generative AI Use
 
 Generative AI was used in this project to mainly ask if ideas were viable for the Tiny Tapeout as well as for basic syntax updates and keeping ideas clear. It additionally was used for providing guidance with unclear errors and cleaning up code to be sure that the design was comphrehensive. 
+
+Link to Chat with AI: https://chatgpt.com/share/69a6b292-a970-8011-a4a7-5b0aabf847ec
